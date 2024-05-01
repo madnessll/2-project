@@ -1,0 +1,106 @@
+.subscribe {
+  color: #fff;
+  margin-top: -14px;
+}
+.subscribe__wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  padding-top: 113px;
+  padding-bottom: 63px;
+  background: var(--blue);
+  border-radius: 42px;
+  text-align: center;
+  line-height: 1.5;
+}
+.subscribe__update {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.subscribe__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 7px;
+}
+.subscribe__subtitle {
+  max-width: 475px;
+  margin: 0 auto;
+}
+.subscribe__subtitle h3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.subscribe__feedback {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.subscribe__form {
+  background: transparent url("./../../img/email.svg") no-repeat 13px 50%;
+  background-size: 17px 13px;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding-left: 42px;
+  width: 299px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  &::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+.subscribe__form:focus {
+  outline: none; /* Убираем выделение при фокусе */
+}
+.subscribe__btn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c1c1c;
+  // padding: 19px 22px;
+  background: #fff;
+  width: 164px;
+  height: 49px;
+  border-radius: 5px;
+}
+.subscribe__tg {
+  position: absolute;
+  left: 137px;
+  top: 13px;
+}
+@media (max-width: 1141px) {
+  .subscribe__tg {
+    display: none;
+  }
+  .subscribe__wrapper {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 592px) {
+  .subscribe__feedback {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe__form {
+    height: 49px;
+  }
+  .subscribe__btn {
+    width: 240px;
+  }
+  .subscribe__title {
+    font-size: 30px;
+  }
+  .subscribe__form {
+    width: 198px;
+  }
+}

@@ -1,0 +1,49 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --blue: #0086d5;
+  --main-color: #303030;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(50% - 50vw);
+}
+.btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  background: var(--blue);
+  width: 144px;
+  height: 44px;
+  border-radius: 5px;
+}
+.hidden {
+  display: none;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 38px;
+  color: var(--main-color);
+  line-height: 1.5;
+}
+.link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--blue);
+  line-height: 1.5;
+}
+.overflow-hidden {
+  overflow-x: hidden;
+}
+.overflow-hidden-y {
+  overflow-y: hidden;
+}
